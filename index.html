@@ -4,12 +4,16 @@
   <meta charset="utf-8">
   <title>Today I Learned</title>
   <link rel="icon" href="images/favicon.ico">
+
   <meta name="description" content="A blog about what Annie learned today">
   <meta name="author" content="Annie Pennell">
   <meta name="keywords" content="HTML, CSS, JavaScript, React, frontend, software engineering">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c12416527a.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="styles/design-system.css">
-  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <div class="page-container">
@@ -19,83 +23,133 @@
     </nav>
 
     <main class="content-container">
-      <section class="card">
-        <img
-          src="images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg"
-          alt="Some alt text describing the image" class="card-image"
-        >
-        <h3>Post Title</h3>
-        <h4>July 31, 2020</h4>
-        <a href="posts/post1.html" class="btn">Read</a>
-      </section>
-      <section class="card">
-        <img
-          src="images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg"
-          alt="Some alt text describing the image" class="card-image"
-        >
-        <h3>Post Title</h3>
-        <h4>July 31, 2020</h4>
-        <a href="posts/post1.html" class="btn">Read</a>
-      </section>
-      <section class="card">
-        <img
-          src="images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg"
-          alt="Some alt text describing the image" class="card-image"
-        >
-        <h3>Post Title</h3>
-        <h4>July 31, 2020</h4>
-        <a href="posts/post1.html" class="btn">Read</a>
-      </section>
-      <section class="card">
-        <img
-          src="images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg"
-          alt="Some alt text describing the image" class="card-image"
-        >
-        <h3>Post Title</h3>
-        <h4>July 31, 2020</h4>
-        <a href="posts/post1.html" class="btn">Read</a>
-      </section>
-      <section class="card">
-        <img
-          src="images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg"
-          alt="Some alt text describing the image" class="card-image"
-        >
-        <h3>Post Title</h3>
-        <h4>July 31, 2020</h4>
-        <a href="posts/post1.html" class="btn">Read</a>
-      </section>
-      <section class="card">
-        <img
-          src="images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg"
-          alt="Some alt text describing the image" class="card-image"
-        >
-        <h3>Post Title</h3>
-        <h4>July 31, 2020</h4>
-        <a href="posts/post1.html" class="btn">Read</a>
-      </section>
+      <div class="grid-container">
+        <section class="card">
+          <div class="image-wrapper">
+            <img
+              src="images/martin-w-kirst-Ap3fFS0iOiE-unsplash.jpg" 
+              alt="Illuminated letters that spell Happy Code">
+          </div>
+          <div class="info-wrapper">
+            <h3>Simplify Your Code with React Hooks</h3>
+            <div class="inline-wrapper">
+              <p>August 2, 2020</p>
+              <a href="index.html" class="btn">Read</a>
+            </div>
+          </div>
+        </section>
+        <section class="card">
+          <div class="image-wrapper">
+            <img
+              src="images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg"
+              alt="Banner on wall that says Everyone Can Code">
+          </div>
+          <div class="info-wrapper">
+            <h3>Me, You, and the Dunning-Kruger Effect</h3>
+            <div class="inline-wrapper">
+              <p>July 31, 2020</p>
+              <a href="index.html" class="btn">Read</a>
+            </div>
+          </div>
+        </section>
+        <section class="card">
+          <div class="image-wrapper">
+            <img
+              src="images/nesa-by-makers-IgUR1iX0mqM-unsplash.jpg"
+              alt="Woman explaining code on a computer screen to a man">
+          </div>
+          <div class="info-wrapper">
+            <h3>Learing by Teaching</h3>
+            <div class="inline-wrapper">
+              <p>July 26, 2020</p>
+              <a href="index.html" class="btn">Read</a>
+            </div>
+          </div>
+        </section>
+        <section class="card">
+          <div class="image-wrapper">
+            <img
+              src="images/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" 
+              alt="Project planning board with sticky notes on it">
+          </div>
+          <div class="info-wrapper">
+            <h3>User Personas: The Road to a Better Product</h3>
+            <div class="inline-wrapper">
+              <p>July 14, 2020</p>
+              <a href="index.html" class="btn">Read</a>
+            </div>
+          </div>
+        </section>
+        <section class="card">
+          <div class="image-wrapper">
+            <img
+              src="images/rita-morais-fJLyQ81u80Y-unsplash.jpg"
+              alt="Book spine stamped with 'From the real experts'">
+          </div>
+          <div class="info-wrapper">
+            <h3>Confronting Imposter Syndrome Head-On</h3>
+            <div class="inline-wrapper">
+              <p>June 23, 2020</p>
+              <a href="index.html" class="btn">Read</a>
+            </div>
+          </div>
+        </section>
+        <section class="card">
+          <div class="image-wrapper">
+            <img
+              src="images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg"
+              alt="Black glasses on top of closed computer next to mouse and phone">
+          </div>
+          <div class="info-wrapper">
+            <h3>The Myth of the 'Cool Girl'</h3>
+            <div class="inline-wrapper">
+              <p>June 4, 2020</p>
+              <a href="index.html" class="btn">Read</a>
+            </div>
+          </div>
+        </section>
+        <section class="card">
+          <div class="image-wrapper">
+            <img
+              src="images/yancy-min-842ofHC6MaI-unsplash.jpg"
+              alt="Computer screen showing git branches">
+          </div>
+          <div class="info-wrapper">
+            <h3>How I Learned to Love Version Control</h3>
+            <div class="inline-wrapper">
+              <p>May 27, 2020</p>
+              <a href="index.html" class="btn">Read</a>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer class="footer">
-      <a href="https://anniepennell.com/" target="blank" rel="noopener noreferrer">
-        &copy; Annie Pennell 2020
-      </a>
       <div class="social-links">
-        <a href="https://github.com/apennell" target="blank" rel="noopener noreferrer">
-          GitHub
+        <a href="https://github.com/apennell" target="blank" rel="noopener noreferrer" aria-label="Link to GitHub profile">
+          <i aria-hidden="true" class="fab fa-lg fa-github" title="GitHub"></i>
         </a>
-        <a href="https://stackoverflow.com/users/5490423/anniep" target="blank" rel="noopener noreferrer">
-          StackOverflow
+        <a href="https://stackoverflow.com/users/5490423/anniep" target="blank" rel="noopener noreferrer"
+          aria-label="Link to StackOverflow profile">
+          <i aria-hidden="true" class="fab fa-lg fa-stack-overflow" title="StackOverflow"></i>
         </a>
-        <a href="https://www.linkedin.com/in/anniepennell" target="blank" rel="noopener noreferrer">
-          LinkedIn
+        <a href="https://www.linkedin.com/in/anniepennell" target="blank" rel="noopener noreferrer"
+          aria-label="Link to LinkedIn profile">
+          <i aria-hidden="true" class="fab fa-lg fa-linkedin" title="LinkedIn"></i>
         </a>
-        <a href="https://twitter.com/syntacticXsugar" target="blank" rel="noopener noreferrer">
-          Twitter
+        <a href="https://twitter.com/syntacticXsugar" target="blank" rel="noopener noreferrer"
+          aria-label="Link to Twitter profile">
+          <i aria-hidden="true" class="fab fa-lg fa-twitter" title="Twitter"></i>
         </a>
-        <a href="https://www.instagram.com/syntactic_sugar/" target="blank" rel="noopener noreferrer">
-          Instagram
+        <a href="https://www.instagram.com/syntactic_sugar/" target="blank" rel="noopener noreferrer"
+          aria-label="Link to Instagram profile">
+          <i aria-hidden="true" class="fab fa-lg fa-instagram" title="Instagram"></i>
         </a>
       </div>
+      <a href="https://anniepennell.com/" target="blank" rel="noopener noreferrer">
+        © Annie Pennell 2020
+      </a>
     </footer>
   </div>
 </body>
