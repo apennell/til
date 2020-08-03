@@ -1,0 +1,30 @@
+.page-container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 55px 1fr 175px;
+}
+
+.content-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    max-width: 768px;
+    padding: 24px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .content-container {
+    max-width: 1200px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(298px, 100%), 1fr));
+  gap: 1.5rem;
+}
