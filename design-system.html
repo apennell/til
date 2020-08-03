@@ -24,42 +24,181 @@
 
     <main class="content-container">
       <h1>Design System</h1>
-      
-      <section>
+
+      <section class="component-wrapper">
         <h2>Colors</h2>
-        <p class="primary">Primary #FE938C</p>
-        <p class="secondary">Secondary #494331</p>
-        <p class="tertiary">Tertiary #D6D6B1</p>
-        <p class="gray-100">gray-100 #F1F1E4</p>
-        <p class="gray-200">gray-200 #878472</p>
-        <p class="gray-300">gray-300 #3F3F37</p>
-        <p class="gray-400">gray-400 #161613</p>
-      </section>
-      
-      <h2>Card</h2>
-      <section class="grid-container">
-        <section class="card">
-          <div class="image-wrapper">
-            <img src="images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg" alt="Some alt text describing the image" class="card-image">
+        <div class="grid-container">
+          <div class="grid-box primary">
+            <h4>Primary #FE938C</h4>
           </div>
-          <div class="info-wrapper">
-            <h3>Post Title</h3>
-            <div class="inline-wrapper">
-              <p>July 31, 2020</p>
-              <a href="index.html" class="btn">Read</a>
+          <div class="grid-box secondary">
+            <h4>Secondary #494331</h4>
+          </div>
+          <div class="grid-box tertiary">
+            <h4>Tertiary #D6D6B1</h4>
+          </div>
+          <div class="grid-box gray-100">
+            <h4>gray-100 #F1F1E4</h4>
+          </div>
+          <div class="grid-box gray-200">
+            <h4>gray-200 #878472</h4>
+          </div>
+          <div class="grid-box gray-300">
+            <h4>gray-300 #3F3F37</h4>
+          </div>
+          <div class="grid-box gray-400">
+            <h4>gray-400 #161613</h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="component-wrapper">
+        <h2>Typography</h2>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <p>p (body)</p>
+        <p><b>p.bold</b></p>
+        <p><em>p.italics</em></p>
+        <p><u>p.underlined</u></p>
+        <a href="#">Link</a>
+        <blockquote>
+          blockquote:
+          <br/>
+          Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance
+          indicators offline to maximise the long tail.
+        </blockquote>
+      </section>
+
+      <section class="component-wrapper">
+        <h2>Components</h2>
+
+        <section class="component-wrapper">
+          <h3>Author Card</h3>
+          <section class="author-card">
+            <img class="avatar-lg" src="images/headshot.jpg" alt="Profile photo of author">
+            <div class="author-info">
+              <h3>Annie Pennell</h3>
+              <p><b>Frontend Engineer, CyberPolicy</b></p>
+              <p>A little bio about me and all the other things about me like beep boop bop.</p>
+            </div>
+          </section>
+        </section>
+
+        <section class="component-wrapper">
+          <h3>Avatar</h3>
+          <div class="grid-container">
+            <img class="avatar" src="images/headshot.jpg" alt="Profile photo of author">
+            <img class="avatar-lg" src="images/headshot.jpg" alt="Profile photo of author">
+          </div>
+        </section>
+
+        <section class="component-wrapper">
+          <h3>Button</h3>
+          <a href="#" class="btn">Link Button</a>
+          <button class="btn">Real Button</button>
+        </section>
+
+        <div class="component-wrapper">
+          <h3>Card</h3>
+          <div class="grid-container">
+            <section class="card">
+              <div class="image-wrapper">
+                <img src="images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg" alt="Some alt text describing the image" class="card-image">
+              </div>
+              <div class="info-wrapper">
+                <h3>Post Title</h3>
+                <div class="inline-wrapper">
+                  <p>July 31, 2020</p>
+                  <a href="index.html" class="btn">Read</a>
+                </div>
+              </div>
+            </section>
+            <section class="card">
+              <div class="image-wrapper">
+                <img src="images/martin-w-kirst-Ap3fFS0iOiE-unsplash.jpg" alt="Some alt text describing the image" class="card-image">
+              </div>
+              <div class="info-wrapper">
+                <h3>Post title that's a lot longer and we want to make sure still works</h3>
+                <div class="inline-wrapper">
+                  <p>August 31, 2020</p>
+                  <a href="index.html" class="btn">Read</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <section  class="component-wrapper">
+          <h3>Footer</h3>
+          <div class="footer-container">
+            <footer class="footer">
+              <div class="social-links">
+                <a href="https://github.com/apennell" target="blank" rel="noopener noreferrer" aria-label="Link to GitHub profile">
+                  <i aria-hidden="true" class="fab fa-lg fa-github" title="GitHub"></i>
+                </a>
+                <a href="https://stackoverflow.com/users/5490423/anniep" target="blank" rel="noopener noreferrer"
+                  aria-label="Link to StackOverflow profile">
+                  <i aria-hidden="true" class="fab fa-lg fa-stack-overflow" title="StackOverflow"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/anniepennell" target="blank" rel="noopener noreferrer"
+                  aria-label="Link to LinkedIn profile">
+                  <i aria-hidden="true" class="fab fa-lg fa-linkedin" title="LinkedIn"></i>
+                </a>
+                <a href="https://twitter.com/syntacticXsugar" target="blank" rel="noopener noreferrer"
+                  aria-label="Link to Twitter profile">
+                  <i aria-hidden="true" class="fab fa-lg fa-twitter" title="Twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/syntactic_sugar/" target="blank" rel="noopener noreferrer"
+                  aria-label="Link to Instagram profile">
+                  <i aria-hidden="true" class="fab fa-lg fa-instagram" title="Instagram"></i>
+                </a>
+              </div>
+              <a href="https://anniepennell.com/" target="blank" rel="noopener noreferrer">
+                © Annie Pennell 2020
+              </a>
+            </footer>
+          </div>
+        </section>
+
+        <section class="component-wrapper">
+          <h3>Masthead</h3>
+          <div class="masthead">
+            <div class="post-info">
+              <img class="avatar" src="images/headshot.jpg" alt="Profile photo of author">
+              <div class="info-text">
+                <p>By Annie Pennell</p>
+                <p>July 31st, 2020</p>
+              </div>
+            </div>
+            <div class="social-widget">
+              <a href="#" aria-label="Link to share on LinkedIn"><i aria-hidden="true" class="fab fa-lg fa-linkedin"
+                  title="Share on LinkedIn"></i></a>
+              <a href="#" aria-label="Link to share on Twitter"><i aria-hidden="true" class="fab fa-lg fa-twitter"
+                  title="Share on Twitter"></i></a>
+              <a href="#" aria-label="Link to share on Facebook"><i aria-hidden="true" class="fab fa-lg fa-facebook"
+                  title="Share on Facebook"></i></a>
             </div>
           </div>
         </section>
-        <section class="card">
-          <div class="image-wrapper">
-            <img src="images/martin-w-kirst-Ap3fFS0iOiE-unsplash.jpg" alt="Some alt text describing the image" class="card-image">
+
+        <section class="component-wrapper">
+          <h3>Navbar</h3>
+          <div class="navbar-container">
+            <nav class="navbar">
+              <a href="index.html" class="logo">Today I Learned</a>
+              <a href="design-system.html">Design System</a>
+            </nav>
           </div>
-          <div class="info-wrapper">
-            <h3>Post title that's a lot longer and we want to make sure still works</h3>
-            <div class="inline-wrapper">
-              <p>August 31, 2020</p>
-              <a href="index.html" class="btn">Read</a>
-            </div>
+        </section>
+
+        <section class="component-wrapper">
+          <h3>Social Sharing Widget</h3>
+          <div class="social-widget">
+            <a href="#" aria-label="Link to share on LinkedIn"><i aria-hidden="true" class="fab fa-lg fa-linkedin" title="Share on LinkedIn"></i></a>
+            <a href="#" aria-label="Link to share on Twitter"><i aria-hidden="true" class="fab fa-lg fa-twitter" title="Share on Twitter"></i></a>
+            <a href="#" aria-label="Link to share on Facebook"><i aria-hidden="true" class="fab fa-lg fa-facebook" title="Share on Facebook"></i></a>
           </div>
         </section>
       </section>

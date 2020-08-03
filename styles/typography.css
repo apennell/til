@@ -40,11 +40,27 @@ a,
 a:visited {
   font-size: 1rem;
   font-family: 'Cardo', serif;
-  color: #494331;
+  color: #FE938C;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FE938C;
+  color: #FD685D;
   text-decoration: underline;
+}
+
+blockquote {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 1.25em;
+  font-size: 1.25rem;
+  font-style: italic;
+  border-left: 6px solid #D6D6B1;
+}
+
+figcaption {
+  color: #3F3F37;
+  font-size: .95rem;
+  font-style: italic;
+  text-align: center;
 }

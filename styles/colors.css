@@ -1,35 +1,44 @@
 .primary {
-  color: #FE938C;
-}
-
-.primary-200 {
-  color: #FD685D;
-}
-
-.primary-300 {
-  color: #FD685D;
-}
-
-.secondary {
-  color: #494331;
-}
-
-.tertiary {
-  color: #D6D6B1;
-}
-
-.gray-100 {
+  background-color: #FE938C;
   color: #F1F1E4;
 }
 
+.primary-200 {
+  background-color: #FD685D;
+  color: #F1F1E4;
+}
+
+.primary-300 {
+  background-color: #FD685D;
+  color: #F1F1E4;
+}
+
+.secondary {
+  background-color: #494331;
+  color: #F1F1E4;
+}
+
+.tertiary {
+  background-color: #D6D6B1;
+  color: #161613;
+}
+
+.gray-100 {
+  background-color: #F1F1E4;
+  color: #161613;
+}
+
 .gray-200 {
-  color: #878472;
+  background-color: #878472;
+  color: #F1F1E4;
 }
 
 .gray-300 {
-  color: #3F3F37;
+  background-color: #3F3F37;
+  color: #F1F1E4;
 }
 
 .gray-400 {
-  color: #161613;
+  background-color: #161613;
+  color: #F1F1E4;
 }
