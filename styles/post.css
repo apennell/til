@@ -20,3 +20,13 @@
   margin: 2em 0;
   text-align: right;
 }
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0;
+}
+
+.nav-buttons.last {
+  justify-content: flex-end;
+}
