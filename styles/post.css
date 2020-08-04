@@ -1,6 +1,6 @@
 .main-image {
   width: 100%;
-  margin: 48px 0 24px;
+  margin: 3em 0 1.5em;
 }
 
 .main-image img {
@@ -9,7 +9,7 @@
 
 .content-image {
   width: 40%;
-  margin: 24px auto;
+  margin: 1.5em auto;
 }
 
 .content-image img {

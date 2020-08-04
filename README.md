@@ -1,6 +1,9 @@
 # Today I Learned
-An HTML/CSS personal blog project for Udacity Frontend Nanodegree course
+
+Remember HTML and CSS? This is a personal blog project for Udacity's Frontend Nanodegree course,
+using only vanilla HTML and CSS and focusing on the use of Flexbox and CSS Grid.
 
 ## With more time I would...
 
-* Add functional share buttons for sharing the link to social media sites
+* Makes the share widget buttons functional for sharing the current page to social media sites
+* Add more details to the design system, especially including code implementation details

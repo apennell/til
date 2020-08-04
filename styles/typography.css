@@ -25,21 +25,17 @@ h3 {
 }
 
 h4 {
-  font-family: 'Cardo', serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.1;
+  font: 700 1.25rem/1.1 'Cardo', serif;
 }
 
 p {
-  font-size: 1rem;
-  font-family: 'Cardo', serif;
+  color: #161613;
+  font: 1rem 'Cardo', serif;
 }
 
 a,
 a:visited {
-  font-size: 1rem;
-  font-family: 'Cardo', serif;
+  font: 1rem 'Cardo', serif;
   color: #FE938C;
   text-decoration: none;
 }
@@ -50,12 +46,11 @@ a:hover {
 }
 
 blockquote {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin: 1.5em 2em;
   padding-left: 1.25em;
   font-size: 1.25rem;
   font-style: italic;
-  border-left: 6px solid #D6D6B1;
+  border-left: 0.4rem solid #D6D6B1;
 }
 
 figcaption {
