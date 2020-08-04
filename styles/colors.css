@@ -1,21 +1,21 @@
 .primary {
   background-color: #FE938C;
-  color: #F1F1E4;
+  color: #FFF;
 }
 
 .primary-200 {
   background-color: #FD685D;
-  color: #F1F1E4;
+  color: #FFF;
 }
 
 .primary-300 {
-  background-color: #FD685D;
-  color: #F1F1E4;
+  background-color: #FD4235;
+  color: #FFF;
 }
 
 .secondary {
   background-color: #494331;
-  color: #F1F1E4;
+  color: #FFF;
 }
 
 .tertiary {
@@ -30,15 +30,15 @@
 
 .gray-200 {
   background-color: #878472;
-  color: #F1F1E4;
+  color: #FFF;
 }
 
 .gray-300 {
   background-color: #3F3F37;
-  color: #F1F1E4;
+  color: #FFF;
 }
 
 .gray-400 {
   background-color: #161613;
-  color: #F1F1E4;
+  color: #FFF;
 }
